@@ -1,0 +1,142 @@
+body {
+    background-image: url(2.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+}
+label,
+legend,
+input,
+textarea,
+select,
+datalist,
+#previous,
+#next{
+  background-color: rgb(89, 111, 191);
+  background-image: linear-gradient(
+    90deg,
+    rgba(89, 111, 191, 1) 0%,
+    rgba(4, 29, 115, 1) 42%,
+    rgba(0, 221, 255, 1) 98%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+label {
+    font-size: larger;
+    font-weight: bold;
+    padding: 2px;
+  }
+  legend {
+    font-size: medium;
+    font-weight: bold;
+    padding: 2px;
+  }
+  #inputForm {
+    text-align: left;
+    width: 55%;
+    background-color: white;
+    border-radius: 6%;
+  }
+  #out1{
+      float: left;
+      text-align: left;
+      background-color: white;
+      border-radius: 6%;
+      width: 30%;
+      padding: 15px;
+  }
+  #out2{
+      float: right;
+    text-align: left;
+    background-color: white;
+    border-radius: 6%;
+    width: 31%;
+    padding: 10px;
+  }
+  #out3{
+    text-align: left;
+    background-color: white;
+    border-radius: 6%;
+    width: 30%;
+    padding: 10px;
+}
+  form {
+    padding: 30px;
+  }
+  p{
+      color:darkblue;
+  }
+  #next {
+    background-color: white;
+    float: right;
+    width: 200px;
+    height: 50px;
+    font-size:large
+}
+  #previous {
+    background-color: white;
+    float: left;
+    width: 200px;
+    height: 50px;
+
+    font-size:large;
+  }
+
+input,
+textarea,
+select,
+datalist {
+    height: max-content;
+    font-size: small;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding: 3px;
+    width: 40%;
+    border: 0;
+    box-shadow: 0 0 1px 1px rgb(89, 111, 191);
+}
+  input[type="reset"] {
+    width: 10%;
+  }
+    input[type="submit"] {
+        width: 10%;
+    }
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 1%;
+    border: 0;
+    box-shadow: none;
+  }
+  #mainT{
+    width: 350px;
+    height: 70px;
+    text-align: justify;
+  }
+  #GC,#BC,#NC{
+      width: 70%;
+      height: 85%;
+  }
+  #Comp, #RComp {
+    width: 70%;
+    height: 85%;
+}
+  #NF, #TS, #TR
+  {
+    width: 70%;
+    height: 85%;
+}
+  #gc
+  {
+      width: 30%;
+  }
+  #out {
+    height: max-content;
+    width: 70%;
+
+}
+
+ 
